@@ -1,8 +1,8 @@
 ####################PROVIDER##################
 provider "aws" {
 region = "us-east-1"
-access_key = ""
-secret_key = ""
+access_key = "AKIAZBCAMP7O3OPP5BYB"
+secret_key = "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"
 }
 
 ####################VPC##################
