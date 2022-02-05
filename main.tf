@@ -1,8 +1,8 @@
 ####################PROVIDER##################
 provider "aws" {
 region = "us-east-2"
-access_key = "AKIAZBCAMP7O3OPP5BYB"
-secret_key = "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"
+access_key = "AKIAZBCAMP7O75P4J2ML"
+secret_key = "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"
 }
 ####################EC2 INSTANCE##################
 resource "aws_instance" "abc" {
