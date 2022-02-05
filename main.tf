@@ -8,7 +8,7 @@ secret_key = "bPI0HMXi/RxLQbySm0HRMTevP5unRljaoNYgfEit"
 resource "aws_instance" "abc" {
 ami = "ami-0231217be14a6f3ba"
 instance_type = "t2.micro"
-availability_zone = "us-east-1a"
+availability_zone = "us-east-2a"
 key_name = "Ohio"
 
 }
