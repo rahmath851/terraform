@@ -12,3 +12,8 @@ availability_zone = "us-east-2a"
 key_name = "Ohio"
 
 }
+resource "aws_s3_bucket" "def" { 
+bucket = "flipkartflipkart234"
+acl = "private"
+}
+
