@@ -11,9 +11,3 @@ instance_type = "t2.micro"
 availability_zone = "us-east-1a"
 key_name = "nver"
 
-}
-resource "aws_s3_bucket" "def" { 
-bucket = "sonurahmath"
-acl = "private"
-}
-
