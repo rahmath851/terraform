@@ -13,7 +13,7 @@ key_name = "Ohio"
 
 }
 resource "aws_s3_bucket" "def" { 
-bucket = "flipkartflipkart234"
+bucket = "sonurahmath"
 acl = "private"
 }
 
