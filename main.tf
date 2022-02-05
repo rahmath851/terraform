@@ -1,6 +1,6 @@
 ####################PROVIDER##################
 provider "aws" {
-region = "us-east-2"
+region = "us-east-1"
 access_key = "AKIAZBCAMP7O75P4J2ML"
 secret_key = "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"
 }
@@ -8,8 +8,8 @@ secret_key = "nSnUbMRnCLYwsAcv08jflYTDDT8rPKzdTojI6T/n"
 resource "aws_instance" "abc" {
 ami = "ami-0231217be14a6f3ba"
 instance_type = "t2.micro"
-availability_zone = "us-east-2a"
-key_name = "Ohio"
+availability_zone = "us-east-1a"
+key_name = "nver"
 
 }
 resource "aws_s3_bucket" "def" { 
